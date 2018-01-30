@@ -1,6 +1,7 @@
 #include <iostream>
 
 int add(int x, int y);
+int div(int x, int y);
 
 int main()
 {
@@ -16,4 +17,9 @@ int main()
 int add(int x, int y)
 {
 	return x + y;
+}
+
+int div(int x, int y)
+{
+	return x/y;
 }
